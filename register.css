@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: plum;
+}
+
+.register {
+    margin-top: 150px;
+    /* margin-bottom: 500px; */
+    width: 800px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: mediumvioletred;
+    color: white;
+    text-align: center;
+
+}
+
+.register legend {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 3px darkcyan;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.register span1 {
+    color: red;
+    text-shadow: 0px 1px 10px darkslategrey;
+    font-size: 20px;
+}
+
+.register input[type="text"], .register input[type="password"], .register input[type="date"], .register input[type="email"]{
+    border:0;
+    background-color: white;
+    margin: 20px auto;
+    text-align: left;
+    border: 3px solid slategray;
+    padding: 14px 10px;
+    width: 220px;
+    color: black;
+    border-radius: 14px;
+    transition: 2px;
+
+}
+
+.register input[type="text"]:focus, .register input[type="password"], .register input[type="date"], .register input[type="email"]:focus{
+    width:300px;
+    border-color: lightslategray;
+}
+
+.register input[type="submit"]{
+    border:0;
+    background-color: darkslategrey;
+    margin: 20px 20px;
+    text-align: center;
+    border: 5px solid darkslategrey;
+    padding: 15px 50px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+} 
+
+.register input[type="submit"]:hover{
+    background-color: darkcyan;
+    color: white;
+}
+
+.register input[type="reset"]{
+    border:0;
+    background-color: darkslategrey;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid darkslategrey;
+    padding: 15px 50px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.register input[type="reset"]:hover{
+    background-color: darkcyan;
+    color: white;
+
+}

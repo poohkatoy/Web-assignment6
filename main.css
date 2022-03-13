@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: plum;
+}
+
+.login {
+    width: 800px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: mediumvioletred;
+    text-align: center;
+}
+
+.login legend {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 3px darkcyan;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.login input[type="text"], .login input[type="password"]{
+    border:0;
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid slategray;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: black;
+    border-radius: 14px;
+    transition: 0.25px;
+
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus{
+    width:300px;
+    border-color: lightslategray;
+}
+
+.login input[type="submit"]{
+    border:0;
+    background-color: darkslategrey;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid darkslategrey;
+    padding: 15px 50px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover{
+    background-color: darkcyan;
+    color: white;
+}
+
+.login input[type="reset"]{
+    border:0;
+    background-color: darkslategrey;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid darkslategrey;
+    padding: 15px 50px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.login input[type="reset"]:hover{
+    background-color: darkcyan;
+    color: white;
+
+}
